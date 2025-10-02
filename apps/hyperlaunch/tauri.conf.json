@@ -1,0 +1,36 @@
+{
+  "identifier": "com.jayson.hyperlaunch",
+  "productName": "HyperLaunch", 
+  "version": "0.1.0",
+  "app": {
+    "windows": [
+      {
+        "title": "HyperLaunch",
+        "width": 720,
+        "height": 800,
+        "resizable": false,
+        "decorations": false,
+        "transparent": true,
+        "alwaysOnTop": true,
+        "visible": true,
+        "center": true,
+        "focus": true
+      }
+    ],
+    "security": {
+      "assetProtocol": {
+        "enable": true,
+        "scope": [
+          "/usr/**",
+          "$HOME/.local/share/**"
+        ]
+      }
+    }
+  },
+  "bundle": {
+    "active": false
+  },
+  "build": {
+    "frontendDist": "./frontend/dist"
+  }
+}
