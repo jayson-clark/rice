@@ -1,0 +1,7 @@
+dist
+node_modules
+target
+configs_out
+theme.snapshot.json
+.theme_backups
+configs_out

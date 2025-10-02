@@ -1,0 +1,40 @@
+* {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+}
+
+#waybar {
+  background: #0f1117;
+  color: #e6eef6;
+  min-height: 24px;
+  padding: 2px 10px;
+  border-radius: 6px;
+  box-shadow: none;
+}
+
+#workspaces button,
+#workspaces .active {
+  background: transparent;
+  color: #e6e6e6;
+  padding: 2px 8px;
+  /* vertical padding for centering */
+  min-height: 20px;
+  border-radius: 4px;
+}
+
+#workspaces .active {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+#network,
+#battery,
+#clock {
+  margin-left: 10px;
+}
+
+/* make bar thin */
+.bottom,
+.top,
+.center {
+  min-height: 24px;
+}

@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "name": "rice-default",
+    "author": "jayson",
+    "version": "0.1.0",
+    "description": "Single source-of-truth theme for dotfiles and apps"
+  },
+  "colors": {
+    "background": "#0f1117",
+    "surface": "#0f1720",
+    "muted": "#9aa4b2",
+    "text": "#e6eef6",
+    "primary": "#7dd3fc",
+    "accent": "#a78bfa",
+    "success": "#10b981",
+    "warning": "#f59e0b",
+    "danger": "#ef4444",
+    "transparent": "transparent",
+    "glass": "rgba(255,255,255,0.04)",
+    "border": "rgba(255,255,255,0.06)"
+  },
+  "font": {
+    "family": "Inter, system-ui, sans-serif",
+    "size": {
+      "ui": 20,
+      "heading": 24,
+      "monospace": 20
+    },
+    "weight": {
+      "regular": 400,
+      "medium": 500,
+      "bold": 700
+    }
+  },
+  "ui": {
+    "border_radius": 6,
+    "gaps": {
+      "outer": 10,
+      "inner": 6
+    },
+    "padding": {
+      "small": 6,
+      "medium": 10,
+      "large": 16
+    }
+  },
+  "icons": {
+    "default_size": 16
+  }
+}
