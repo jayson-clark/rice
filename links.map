@@ -1,0 +1,12 @@
+# Format: <source_in_repo> => <destination_under_$HOME>
+#nvim/init.lua         => .config/nvim/init.lua
+#zsh/zshrc             => .zshrc
+hypr/hyprland.conf    => .config/hypr/hyprland.conf
+#git/gitconfig         => .gitconfig
+#kitty/kitty.conf      => .config/kitty/kitty.conf
+#waybar/config         => .config/waybar/config
+
+qutebrowser/config.py  => .config/qutebrowser/config.py
+qutebrowser/startpage.html  => .config/qutebrowser/startpage.html
+
+wayland-apps/hyperlaunch/target/debug/hyperlaunch => .local/bin/hyperlaunch
